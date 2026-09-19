@@ -1,10 +1,10 @@
 # Simple Calculator
-
+#this is a calc
 def add(a, b):
     return a + b
 
-def power(a, b):
-    return a * b
+def subtract(a, b):
+    return a - b
 
 def multiply(a, b):
     return a * b
@@ -43,8 +43,8 @@ def calculator():
         elif operation == "subtract":
             print(f"Result: {a} - {b} = {subtract(a, b)}\n")
         elif operation == "multiply":
-            print(f"Result: {a} × {b} = {multiply(a, b)}\n")
+            print(f"Result: {a} x {b} = {multiply(a, b)}\n")
         elif operation == "divide":
-            print(f"Result: {a} ÷ {b} = {divide(a, b)}\n")
+            print(f"Result: {a} / {b} = {divide(a, b)}\n")
 
 calculator()
